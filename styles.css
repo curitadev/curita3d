@@ -23,8 +23,9 @@ ul{
 }
 
 .container{
-    width: 90%;
+    width: 75%;
     margin: auto;
+    
 }
 
 .nav-main{
@@ -56,21 +57,42 @@ ul{
     display: flex;
 }
 
-.newitems div{
-    padding: 10px;
+.newitems a{
+    margin: 10px;   
 }
-
-
-.newitems div img{
+.newitems img{
     height: 250px;
 }
+
 
 .showcase{
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
+
+.midcontent section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.midcontent section ul{
+    width: 80%;
+    columns: 2;
+    margin: 0 auto;
+}
+
+.midcontent section img{
+    width: 100%;
+}
+
+
+
+
 
 
 
