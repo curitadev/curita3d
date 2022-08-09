@@ -87,7 +87,18 @@ ul{
 }
 
 .midcontent section img{
-    width: 100%;
+    width: 100%;    
+}
+
+footer{
+    background-color: #222222;
+    margin-top: 5rem;
+    font-size: 3rem;
+    text-align: center;
+}
+
+footer img{
+    height: 3.2rem;
 }
 
 
