@@ -43,6 +43,10 @@ ul{
     display: flex;
 }
 
+.nav-main img{
+    height: 2rem;
+}
+
 .nav-main ul li{
     padding: 10px;
 }
@@ -66,7 +70,7 @@ ul{
     height: 250px;
 }
 
-
+/* showcase */
 .showcase{
     width: 100%;
     display: flex;
@@ -75,6 +79,13 @@ ul{
     margin-top: 50px;
     margin-bottom: 50px;
 }
+
+.showcase img{
+    border-radius: .5rem;
+}
+
+
+
 
 /* mid content*/
 .midcontent__section{
@@ -134,3 +145,9 @@ ul{
     font-size: 2.5rem;
 }
 
+.footer-wrapper > p:last-child{
+    color:white;
+    font-size: 1.5rem;
+    text-align: start;
+    padding: .85rem;
+}
