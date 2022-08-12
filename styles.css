@@ -33,10 +33,9 @@ ul{
 .nav{
     font-size: 1.8rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-content: center;
-    height: 50px;
-    padding: 20px 0;
+    margin: 10px 200px;
 }
 
 .nav__ul{
@@ -158,5 +157,10 @@ ul{
     
     .newitems{
         flex-direction: column;
+    }
+
+    .midcontent__section__ul{
+        width: 80%;
+        columns: 1;
     }
 }
